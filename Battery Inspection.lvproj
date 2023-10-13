@@ -12,14 +12,15 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Library" Type="Folder">
+			<Item Name="CWUU.jpg" Type="Document" URL="../CWUU.jpg"/>
 			<Item Name="Find Asset.vi" Type="VI" URL="../Find Asset.vi"/>
 			<Item Name="Attach File to Asset.vi" Type="VI" URL="../Attach File to Asset.vi"/>
+			<Item Name="Append Asset Metadata.vi" Type="VI" URL="../Append Asset Metadata.vi"/>
 		</Item>
 		<Item Name="ACIR.vi" Type="VI" URL="../ACIR.vi"/>
 		<Item Name="Cell 3D Measurement.vi" Type="VI" URL="../Cell 3D Measurement.vi"/>
 		<Item Name="Cell Photo.vi" Type="VI" URL="../Cell Photo.vi"/>
 		<Item Name="Cell Weight.vi" Type="VI" URL="../Cell Weight.vi"/>
-		<Item Name="CWUU.jpg" Type="Document" URL="../CWUU.jpg"/>
 		<Item Name="OCV.vi" Type="VI" URL="../OCV.vi"/>
 		<Item Name="Update Asset Metadata.vi" Type="VI" URL="../Update Asset Metadata.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -60,6 +61,16 @@
 				<Item Name="NI Skyline Auto Writable File.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/File/Auto Writable File/NI Skyline Auto Writable File.lvclass"/>
 				<Item Name="NI Skyline File Filter.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/File/Filter/NI Skyline File Filter.lvclass"/>
 				<Item Name="NI SystemLink File Filter.lvlib" Type="Library" URL="/&lt;vilib&gt;/Skyline/File/Filter_Lib/NI SystemLink File Filter.lvlib"/>
+				<Item Name="lib_NI_Advanced HTTP Client.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Advanced HTTP Client/lib_NI_Advanced HTTP Client.lvlib"/>
+				<Item Name="lvwebclient_64.dll" Type="Document" URL="/&lt;vilib&gt;/NI/Advanced HTTP Client/lvwebclient_64.dll"/>
+				<Item Name="JSONtext.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JSONtext/JSONtext.lvlib"/>
+				<Item Name="JDP Utility.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/JDP Utility.lvlib"/>
+				<Item Name="JSONtext LVClass Serializer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/JDP Science/JSONtext/LVClass Serializer/JSONtext LVClass Serializer.lvclass"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
+				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
+				<Item Name="JDP Timestamp.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Timestamp/JDP Timestamp.lvlib"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
+				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Base64/Base64 Support.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
