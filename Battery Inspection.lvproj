@@ -23,6 +23,8 @@
 		<Item Name="Cell Weight.vi" Type="VI" URL="../Cell Weight.vi"/>
 		<Item Name="OCV.vi" Type="VI" URL="../OCV.vi"/>
 		<Item Name="Update Asset Metadata.vi" Type="VI" URL="../Update Asset Metadata.vi"/>
+		<Item Name="Move Asset.vi" Type="VI" URL="../Move Asset.vi"/>
+		<Item Name="Move Asset by ID.vi" Type="VI" URL="../Move Asset by ID.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
