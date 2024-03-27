@@ -1,0 +1,12 @@
+Architecture: windows_x64
+Built-Using: nipkg
+Description: Battery inspection test including ACIR.
+Maintainer: Acme <email@mycompany.com>
+Package: acme-battery-inspection-test
+Section: Application Software
+Version: 1.0.0.2
+XB-DisplayName: Battery Inspection Test
+XB-Plugin: file
+XB-StoreProduct: yes
+XB-UserVisible: yes
+XB-VisibleForRuntimeDeployment: no

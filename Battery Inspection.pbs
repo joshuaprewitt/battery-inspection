@@ -1,0 +1,991 @@
+﻿<Solution xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/NationalInstruments.PackageBuilder.Engine">
+    <Name>Battery Inspection</Name>
+    <SourceItems>
+        <SourceItem z:Id="i2">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\COMMIT_EDITMSG</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i3">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\config</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i4">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\description</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i5">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\FETCH_HEAD</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i6">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\HEAD</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i7">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\hooks\applypatch-msg.sample</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i8">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\hooks\commit-msg.sample</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i9">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\hooks\fsmonitor-watchman.sample</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i10">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\hooks\post-update.sample</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i11">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\hooks\pre-applypatch.sample</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i12">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\hooks\pre-commit.sample</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i13">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\hooks\pre-merge-commit.sample</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i14">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\hooks\prepare-commit-msg.sample</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i15">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\hooks\pre-push.sample</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i16">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\hooks\pre-rebase.sample</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i17">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\hooks\pre-receive.sample</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i18">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\hooks\push-to-checkout.sample</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i19">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\hooks\update.sample</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i20">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\index</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i21">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\info\exclude</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i22">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\logs\HEAD</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i23">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\logs\refs\heads\main</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i24">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\logs\refs\remotes\origin\HEAD</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i25">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\logs\refs\remotes\origin\main</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i26">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\0c\81aa3dd4b37ae8da8607ccd3f8bb3718030cfe</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i27">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\0f\76b20a5ab0628cd4382eeeed407e39a3a6bee6</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i28">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\1b\413a9c3cbb373595c1f19447e26781d9e731d3</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i29">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\1f\a43f4f700db4350e35164c1cf48937def71db9</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i30">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\20\f8d3aa9145e3c92eb043dc0ed203906e039e6f</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i31">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\27\50e89b443590b946d6b67d45e4966fef9f0b60</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i32">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\4c\6fa79a5837f7c01d1b8a1ae7eaaaa480f5bccb</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i33">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\4d\bfeae39734425752f09b2d2fad154198253e91</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i34">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\56\8d0810ba382e95349e365cab867f0876c306b2</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i35">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\6c\ff617f7a3da9cf062d84f477f2a20f76d30dd7</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i36">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\7a\27da53dc6d095a60a7206836ace9dbb543bfb5</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i37">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\a1\bc140fe849187c0400fc8eb72621a40e7ee8aa</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i38">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\a8\6661c716a71ed59dfe34193f3c2246ddb607f1</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i39">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\b1\51e7d52a562bceb7982ff33deb128559cd2015</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i40">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\c8\08d6096c21c0cecfd2ee277e13bdc2882dbe0c</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i41">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\d7\69558fe3f2695978ce0c575d3ac9fd140e57c9</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i42">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\dc\c453a88d1adc58c28418868c3686430b12300f</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i43">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\e6\a22f726ce71c557124b9d610d33500e3da78dd</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i44">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\e9\ac1e5b7925cf3c77a619e3ea1bf257ceb33615</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i45">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\f5\d8961ec23bf005c54c4bac3b090c7a271f3b54</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i46">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\f8\84bd484ab8691b27a5c2c970dcf5635680081d</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i47">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\info</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i48">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\pack\pack-53a8b9776bc114bcb1dc9f2876ea94a6e2b70297.idx</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i49">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\pack\pack-53a8b9776bc114bcb1dc9f2876ea94a6e2b70297.pack</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i50">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\packed-refs</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i51">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\refs\heads\main</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i52">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\refs\remotes\origin\HEAD</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i53">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\refs\remotes\origin\main</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i54">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\refs\tags</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i55">
+            <PluginConfigurationOptions />
+            <RelativePath>.gitattributes</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i56">
+            <PluginConfigurationOptions />
+            <RelativePath>Battery Inspection.aliases</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i57">
+            <PluginConfigurationOptions />
+            <RelativePath>Battery Inspection.lvlps</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i58">
+            <PluginConfigurationOptions />
+            <RelativePath>Battery Inspection.pbs</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i59">
+            <PluginConfigurationOptions />
+            <RelativePath>CWUU.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i60">
+            <PluginConfigurationOptions />
+            <RelativePath>LICENSE</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i61">
+            <PluginConfigurationOptions />
+            <RelativePath>Packages\acme-battery-inspection-test_1.0.0.0_windows_x64.nipkg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i62">
+            <PluginConfigurationOptions />
+            <RelativePath>Packages\acme-battery-inspection-test_1.0.0.1_windows_x64.nipkg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i63">
+            <PluginConfigurationOptions />
+            <RelativePath>README.md</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i64">
+            <PluginConfigurationOptions />
+            <RelativePath>VIs\ACIR.vi</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i65">
+            <PluginConfigurationOptions />
+            <RelativePath>VIs\Append Asset Metadata.vi</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i66">
+            <PluginConfigurationOptions />
+            <RelativePath>VIs\Attach File to Asset.vi</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i67">
+            <PluginConfigurationOptions />
+            <RelativePath>VIs\Cell 3D Measurement.vi</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i68">
+            <PluginConfigurationOptions />
+            <RelativePath>VIs\Cell Photo.vi</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i69">
+            <PluginConfigurationOptions />
+            <RelativePath>VIs\Cell Weight.vi</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i70">
+            <PluginConfigurationOptions />
+            <RelativePath>VIs\Find Asset.vi</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i71">
+            <PluginConfigurationOptions />
+            <RelativePath>VIs\Move Asset by ID.vi</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i72">
+            <PluginConfigurationOptions />
+            <RelativePath>VIs\Move Asset.vi</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i73">
+            <PluginConfigurationOptions />
+            <RelativePath>VIs\OCV.vi</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i74">
+            <PluginConfigurationOptions />
+            <RelativePath>VIs\Update Asset Metadata.vi</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i75">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\info</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i21" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i76">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\logs\refs\heads</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i23" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i77">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\0c</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i26" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i78">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\0f</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i27" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i79">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\1b</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i28" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i80">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\1f</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i29" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i81">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\20</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i30" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i82">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\27</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i31" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i83">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\4c</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i32" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i84">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\4d</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i33" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i85">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\56</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i34" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i86">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\6c</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i35" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i87">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\7a</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i36" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i88">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\a1</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i37" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i89">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\a8</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i38" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i90">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\b1</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i39" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i91">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\c8</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i40" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i92">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\d7</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i41" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i93">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\dc</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i42" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i94">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\e6</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i43" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i95">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\e9</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i44" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i96">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\f5</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i45" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i97">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\f8</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i46" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i98">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\refs\heads</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i51" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i99">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\logs\refs\remotes\origin</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i24" />
+                <SourceItem z:Ref="i25" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i100">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects\pack</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i48" />
+                <SourceItem z:Ref="i49" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i101">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\refs\remotes\origin</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i52" />
+                <SourceItem z:Ref="i53" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i102">
+            <PluginConfigurationOptions />
+            <RelativePath>Battery Inspection.lvproj</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i56" />
+                <SourceItem z:Ref="i57" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i103">
+            <PluginConfigurationOptions />
+            <RelativePath>Packages</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i61" />
+                <SourceItem z:Ref="i62" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i104">
+            <PluginConfigurationOptions />
+            <RelativePath>VIs</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i64" />
+                <SourceItem z:Ref="i65" />
+                <SourceItem z:Ref="i66" />
+                <SourceItem z:Ref="i67" />
+                <SourceItem z:Ref="i68" />
+                <SourceItem z:Ref="i69" />
+                <SourceItem z:Ref="i70" />
+                <SourceItem z:Ref="i71" />
+                <SourceItem z:Ref="i72" />
+                <SourceItem z:Ref="i73" />
+                <SourceItem z:Ref="i74" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i105">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\hooks</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i7" />
+                <SourceItem z:Ref="i8" />
+                <SourceItem z:Ref="i9" />
+                <SourceItem z:Ref="i10" />
+                <SourceItem z:Ref="i11" />
+                <SourceItem z:Ref="i12" />
+                <SourceItem z:Ref="i13" />
+                <SourceItem z:Ref="i15" />
+                <SourceItem z:Ref="i16" />
+                <SourceItem z:Ref="i17" />
+                <SourceItem z:Ref="i14" />
+                <SourceItem z:Ref="i18" />
+                <SourceItem z:Ref="i19" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i106">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\logs\refs\remotes</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i99" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i107">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\refs\remotes</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i101" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i108">
+            <PluginConfigurationOptions />
+            <RelativePath>Battery Inspection.seq</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i102" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i109">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\objects</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i77" />
+                <SourceItem z:Ref="i78" />
+                <SourceItem z:Ref="i79" />
+                <SourceItem z:Ref="i80" />
+                <SourceItem z:Ref="i81" />
+                <SourceItem z:Ref="i82" />
+                <SourceItem z:Ref="i83" />
+                <SourceItem z:Ref="i84" />
+                <SourceItem z:Ref="i85" />
+                <SourceItem z:Ref="i86" />
+                <SourceItem z:Ref="i87" />
+                <SourceItem z:Ref="i88" />
+                <SourceItem z:Ref="i89" />
+                <SourceItem z:Ref="i90" />
+                <SourceItem z:Ref="i91" />
+                <SourceItem z:Ref="i92" />
+                <SourceItem z:Ref="i93" />
+                <SourceItem z:Ref="i94" />
+                <SourceItem z:Ref="i95" />
+                <SourceItem z:Ref="i96" />
+                <SourceItem z:Ref="i97" />
+                <SourceItem z:Ref="i47" />
+                <SourceItem z:Ref="i100" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i110">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\logs\refs</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i76" />
+                <SourceItem z:Ref="i106" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i111">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\refs</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i98" />
+                <SourceItem z:Ref="i107" />
+                <SourceItem z:Ref="i54" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i112">
+            <PluginConfigurationOptions />
+            <RelativePath>.git\logs</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i22" />
+                <SourceItem z:Ref="i110" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i113">
+            <PluginConfigurationOptions />
+            <RelativePath>.git</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i2" />
+                <SourceItem z:Ref="i3" />
+                <SourceItem z:Ref="i4" />
+                <SourceItem z:Ref="i5" />
+                <SourceItem z:Ref="i6" />
+                <SourceItem z:Ref="i20" />
+                <SourceItem z:Ref="i50" />
+                <SourceItem z:Ref="i105" />
+                <SourceItem z:Ref="i75" />
+                <SourceItem z:Ref="i112" />
+                <SourceItem z:Ref="i109" />
+                <SourceItem z:Ref="i111" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i114">
+            <PluginConfigurationOptions />
+            <RelativePath>..\battery-inspection</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i55" />
+                <SourceItem z:Ref="i56" />
+                <SourceItem z:Ref="i57" />
+                <SourceItem z:Ref="i102" />
+                <SourceItem z:Ref="i108" />
+                <SourceItem z:Ref="i59" />
+                <SourceItem z:Ref="i60" />
+                <SourceItem z:Ref="i63" />
+                <SourceItem z:Ref="i113" />
+                <SourceItem z:Ref="i58" />
+                <SourceItem z:Ref="i103" />
+                <SourceItem z:Ref="i104" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+    </SourceItems>
+    <InputSourceItems>
+        <SourceItem z:Ref="i114" />
+    </InputSourceItems>
+    <Distributions>
+        <Distribution z:Id="i115" i:type="Package">
+            <DistributionItems>
+                <DistributionItem z:Id="i116" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[TestStand Public Documents]\Battery Inspection</DestinationRelativePath>
+                    <Name>Battery Inspection</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i117" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[TestStand Public Documents]\Battery Inspection\Battery Inspection.seq</DestinationRelativePath>
+                    <Name>Battery Inspection.seq</Name>
+                    <SourceItem z:Ref="i108" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i118" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[TestStand Public Documents]\Battery Inspection\Battery Inspection.lvproj</DestinationRelativePath>
+                    <Name>Battery Inspection.lvproj</Name>
+                    <SourceItem z:Ref="i102" />
+                    <PluginConfigurationOptions>
+                        <ConfigurationOption z:Id="i119">
+                            <Definition z:Id="i120">
+                                <Description i:nil="true" />
+                                <Name>Include all files in LabVIEW project</Name>
+                            </Definition>
+                            <HasDefaultValues>true</HasDefaultValues>
+                            <Value z:Id="i121" i:type="BooleanConfigurationOptionValue" />
+                        </ConfigurationOption>
+                    </PluginConfigurationOptions>
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i122" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[TestStand Public Documents]\Battery Inspection\Battery Inspection.aliases</DestinationRelativePath>
+                    <Name>Battery Inspection.aliases</Name>
+                    <SourceItem z:Ref="i56" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i123" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[TestStand Public Documents]\Battery Inspection\Battery Inspection.lvlps</DestinationRelativePath>
+                    <Name>Battery Inspection.lvlps</Name>
+                    <SourceItem z:Ref="i57" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i124" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[TestStand Public Documents]\Battery Inspection\CWUU.jpg</DestinationRelativePath>
+                    <Name>CWUU.jpg</Name>
+                    <SourceItem z:Ref="i59" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>true</ProcessDuringStaging>
+                </DistributionItem>
+            </DistributionItems>
+            <Name>Battery Inspection Test</Name>
+            <OutputDirectory>Packages</OutputDirectory>
+            <PluginConfigurationOptions />
+            <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
+            <Architecture>windows_x64</Architecture>
+            <AutoIncrementVersion>Build</AutoIncrementVersion>
+            <BuildStatus z:Id="i125">
+                <BuildEverSuccessful>true</BuildEverSuccessful>
+                <FileName>acme-battery-inspection-test_1.0.0.1_windows_x64.nipkg</FileName>
+                <Version>1.0.0.1</Version>
+            </BuildStatus>
+            <CompanyName>MyCompany</CompanyName>
+            <CustomExecutes />
+            <DisplayName>Battery Inspection Test</DisplayName>
+            <FileName>acme-battery-inspection-test_1.0.0.2_windows_x64.nipkg</FileName>
+            <MaintainerEmail>email@mycompany.com</MaintainerEmail>
+            <MaintainerName>Acme</MaintainerName>
+            <Messages xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <PackageName>acme-battery-inspection-test</PackageName>
+            <PackageRelationships />
+            <ProductName>MyProduct</ProductName>
+            <Section>Application Software</Section>
+            <StoreProduct>true</StoreProduct>
+            <Synopsis>Battery inspection test including ACIR.</Synopsis>
+            <Version>1.0.0.2</Version>
+        </Distribution>
+    </Distributions>
+    <Feeds />
+    <DistributionGroups>
+        <DistributionGroup z:Id="i126">
+            <Distributions>
+                <Distribution z:Ref="i115" />
+            </Distributions>
+            <Name>Distribution Group</Name>
+            <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
+            <StageDirectory>ProcessingStage</StageDirectory>
+        </DistributionGroup>
+    </DistributionGroups>
+    <TestStandMode>true</TestStandMode>
+    <PluginConfigurationOptions>
+        <ConfigurationOption z:Id="i127">
+            <Definition z:Id="i128">
+                <Description i:nil="true" />
+                <Name>TestStand Options</Name>
+            </Definition>
+            <HasDefaultValues>true</HasDefaultValues>
+            <Value z:Id="i129" i:type="DialogConfigurationOptionValue">
+                <Values>
+                    <ConfigurationOptionValue z:Id="i130" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i131" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i132" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i133" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i134" i:type="StringConfigurationOptionValue">
+                        <Value>SupportVIs</Value>
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i135" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i136" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i137" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i138" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i139" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i140" i:type="BooleanConfigurationOptionValue">
+                        <Value>true</Value>
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i141" i:type="BooleanConfigurationOptionValue">
+                        <Value>true</Value>
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i142" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i143" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i144" i:type="PathConfigurationOptionValue">
+                        <RelativePath />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i145" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i146" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i147" i:type="StringConfigurationOptionValue">
+                        <Value>[BootVolume]</Value>
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i148" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i149" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i150" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i151" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i152" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i153" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i154" i:type="BooleanConfigurationOptionValue" />
+                </Values>
+            </Value>
+        </ConfigurationOption>
+    </PluginConfigurationOptions>
+</Solution>
