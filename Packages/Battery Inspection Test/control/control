@@ -4,7 +4,7 @@ Description: Battery inspection test including ACIR.
 Maintainer: Acme <email@mycompany.com>
 Package: acme-battery-inspection-test
 Section: Application Software
-Version: 1.0.0.9
+Version: 1.0.0.10
 XB-DisplayName: Battery Inspection Test
 XB-Plugin: file
 XB-StoreProduct: yes
