@@ -13,6 +13,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Lib" Type="Folder"/>
+		<Item Name="Update Test Plan.vi" Type="VI" URL="../VIs for Battery Inspection/Update Test Plan.vi"/>
 		<Item Name="Find Asset.vi" Type="VI" URL="../VIs for Battery Inspection/Find Asset.vi"/>
 		<Item Name="Move Asset.vi" Type="VI" URL="../VIs for Battery Inspection/Move Asset.vi"/>
 		<Item Name="Cell Weight.vi" Type="VI" URL="../VIs for Battery Inspection/Cell Weight.vi"/>

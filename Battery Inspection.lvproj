@@ -23,6 +23,7 @@
 		<Item Name="Move Asset.vi" Type="VI" URL="../VIs/Move Asset.vi"/>
 		<Item Name="OCV.vi" Type="VI" URL="../VIs/OCV.vi"/>
 		<Item Name="Find Asset.vi" Type="VI" URL="../VIs/Find Asset.vi"/>
+		<Item Name="Update Test Plan.vi" Type="VI" URL="../VIs/Update Test Plan.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI Skyline Configuration HTTP.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Skyline/Configuration/Configuration HTTP_class/NI Skyline Configuration HTTP.lvclass"/>

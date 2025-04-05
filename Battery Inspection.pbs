@@ -93,6 +93,12 @@
         </SourceItem>
         <SourceItem z:Id="i17">
             <PluginConfigurationOptions />
+            <RelativePath>VIs\Update Test Plan.vi</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i18">
+            <PluginConfigurationOptions />
             <RelativePath>Battery Inspection.lvproj</RelativePath>
             <DependentItems>
                 <SourceItem z:Ref="i2" />
@@ -100,7 +106,7 @@
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i18">
+        <SourceItem z:Id="i19">
             <PluginConfigurationOptions />
             <RelativePath>VIs</RelativePath>
             <DependentItems>
@@ -115,14 +121,15 @@
                 <SourceItem z:Ref="i14" />
                 <SourceItem z:Ref="i15" />
                 <SourceItem z:Ref="i16" />
+                <SourceItem z:Ref="i17" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
-        <SourceItem z:Id="i19">
+        <SourceItem z:Id="i20">
             <PluginConfigurationOptions />
             <RelativePath>Battery Inspection.seq</RelativePath>
             <DependentItems>
-                <SourceItem z:Ref="i17" />
+                <SourceItem z:Ref="i18" />
             </DependentItems>
             <IsDiscoverable>true</IsDiscoverable>
         </SourceItem>
@@ -130,58 +137,58 @@
     <InputSourceItems>
         <SourceItem z:Ref="i2" />
         <SourceItem z:Ref="i3" />
-        <SourceItem z:Ref="i17" />
-        <SourceItem z:Ref="i4" />
-        <SourceItem z:Ref="i19" />
-        <SourceItem z:Ref="i5" />
         <SourceItem z:Ref="i18" />
+        <SourceItem z:Ref="i4" />
+        <SourceItem z:Ref="i20" />
+        <SourceItem z:Ref="i5" />
+        <SourceItem z:Ref="i19" />
     </InputSourceItems>
     <Distributions>
-        <Distribution z:Id="i20" i:type="Package">
+        <Distribution z:Id="i21" i:type="Package">
             <DistributionItems>
-                <DistributionItem z:Id="i21" i:type="DistributionDirectoryItem">
+                <DistributionItem z:Id="i22" i:type="DistributionDirectoryItem">
                     <DestinationRelativePath>[TestStand Public Documents]\Battery Inspection</DestinationRelativePath>
                     <Name>Battery Inspection</Name>
                     <SourceItem i:nil="true" />
                 </DistributionItem>
-                <DistributionItem z:Id="i22" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i23" i:type="DistributionFileItem">
                     <DestinationRelativePath>[TestStand Public Documents]\Battery Inspection\Battery Inspection.seq</DestinationRelativePath>
                     <Name>Battery Inspection.seq</Name>
-                    <SourceItem z:Ref="i19" />
+                    <SourceItem z:Ref="i20" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i23" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i24" i:type="DistributionFileItem">
                     <DestinationRelativePath>[TestStand Public Documents]\Battery Inspection\Battery Inspection.lvproj</DestinationRelativePath>
                     <Name>Battery Inspection.lvproj</Name>
-                    <SourceItem z:Ref="i17" />
+                    <SourceItem z:Ref="i18" />
                     <PluginConfigurationOptions>
-                        <ConfigurationOption z:Id="i24">
-                            <Definition z:Id="i25">
+                        <ConfigurationOption z:Id="i25">
+                            <Definition z:Id="i26">
                                 <Description i:nil="true" />
                                 <Name>Include all files in LabVIEW project</Name>
                             </Definition>
                             <HasDefaultValues>true</HasDefaultValues>
-                            <Value z:Id="i26" i:type="BooleanConfigurationOptionValue" />
+                            <Value z:Id="i27" i:type="BooleanConfigurationOptionValue" />
                         </ConfigurationOption>
                     </PluginConfigurationOptions>
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i27" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i28" i:type="DistributionFileItem">
                     <DestinationRelativePath>[TestStand Public Documents]\Battery Inspection\Battery Inspection.aliases</DestinationRelativePath>
                     <Name>Battery Inspection.aliases</Name>
                     <SourceItem z:Ref="i2" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i28" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i29" i:type="DistributionFileItem">
                     <DestinationRelativePath>[TestStand Public Documents]\Battery Inspection\Battery Inspection.lvlps</DestinationRelativePath>
                     <Name>Battery Inspection.lvlps</Name>
                     <SourceItem z:Ref="i3" />
                     <PluginConfigurationOptions />
                     <ProcessDuringStaging>true</ProcessDuringStaging>
                 </DistributionItem>
-                <DistributionItem z:Id="i29" i:type="DistributionFileItem">
+                <DistributionItem z:Id="i30" i:type="DistributionFileItem">
                     <DestinationRelativePath>[TestStand Public Documents]\Battery Inspection\CWUU.jpg</DestinationRelativePath>
                     <Name>CWUU.jpg</Name>
                     <SourceItem z:Ref="i5" />
@@ -195,15 +202,15 @@
             <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
             <Architecture>windows_x64</Architecture>
             <AutoIncrementVersion>Build</AutoIncrementVersion>
-            <BuildStatus z:Id="i30">
+            <BuildStatus z:Id="i31">
                 <BuildEverSuccessful>true</BuildEverSuccessful>
-                <FileName>acme-battery-inspection-test_1.0.0.12_windows_x64.nipkg</FileName>
-                <Version>1.0.0.12</Version>
+                <FileName>acme-battery-inspection-test_1.0.0.17_windows_x64.nipkg</FileName>
+                <Version>1.0.0.17</Version>
             </BuildStatus>
             <CompanyName>MyCompany</CompanyName>
             <CustomExecutes />
             <DisplayName>Battery Inspection Test</DisplayName>
-            <FileName>acme-battery-inspection-test_1.0.0.13_windows_x64.nipkg</FileName>
+            <FileName>acme-battery-inspection-test_1.0.0.18_windows_x64.nipkg</FileName>
             <MaintainerEmail>email@mycompany.com</MaintainerEmail>
             <MaintainerName>Acme</MaintainerName>
             <Messages xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
@@ -213,14 +220,14 @@
             <Section>Application Software</Section>
             <StoreProduct>true</StoreProduct>
             <Synopsis>Battery inspection test including ACIR.</Synopsis>
-            <Version>1.0.0.13</Version>
+            <Version>1.0.0.18</Version>
         </Distribution>
     </Distributions>
     <Feeds />
     <DistributionGroups>
-        <DistributionGroup z:Id="i31">
+        <DistributionGroup z:Id="i32">
             <Distributions>
-                <Distribution z:Ref="i20" />
+                <Distribution z:Ref="i21" />
             </Distributions>
             <Name>Distribution Group</Name>
             <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
@@ -229,48 +236,45 @@
     </DistributionGroups>
     <TestStandMode>true</TestStandMode>
     <PluginConfigurationOptions>
-        <ConfigurationOption z:Id="i32">
-            <Definition z:Id="i33">
+        <ConfigurationOption z:Id="i33">
+            <Definition z:Id="i34">
                 <Description i:nil="true" />
                 <Name>TestStand Options</Name>
             </Definition>
             <HasDefaultValues>true</HasDefaultValues>
-            <Value z:Id="i34" i:type="DialogConfigurationOptionValue">
+            <Value z:Id="i35" i:type="DialogConfigurationOptionValue">
                 <Values>
-                    <ConfigurationOptionValue z:Id="i35" i:type="BooleanConfigurationOptionValue" />
                     <ConfigurationOptionValue z:Id="i36" i:type="BooleanConfigurationOptionValue" />
                     <ConfigurationOptionValue z:Id="i37" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i38" i:type="StringConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i38" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i39" i:type="StringConfigurationOptionValue">
                         <Value />
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i39" i:type="StringConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i40" i:type="StringConfigurationOptionValue">
                         <Value>SupportVIs</Value>
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i40" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i41" i:type="StringConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i41" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i42" i:type="StringConfigurationOptionValue">
                         <Value />
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i42" i:type="BooleanConfigurationOptionValue" />
                     <ConfigurationOptionValue z:Id="i43" i:type="BooleanConfigurationOptionValue" />
                     <ConfigurationOptionValue z:Id="i44" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i45" i:type="BooleanConfigurationOptionValue">
-                        <Value>true</Value>
-                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i45" i:type="BooleanConfigurationOptionValue" />
                     <ConfigurationOptionValue z:Id="i46" i:type="BooleanConfigurationOptionValue">
                         <Value>true</Value>
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i47" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i47" i:type="BooleanConfigurationOptionValue">
+                        <Value>true</Value>
+                    </ConfigurationOptionValue>
                     <ConfigurationOptionValue z:Id="i48" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i49" i:type="PathConfigurationOptionValue">
+                    <ConfigurationOptionValue z:Id="i49" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i50" i:type="PathConfigurationOptionValue">
                         <RelativePath />
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i50" i:type="BooleanConfigurationOptionValue" />
                     <ConfigurationOptionValue z:Id="i51" i:type="BooleanConfigurationOptionValue" />
-                    <ConfigurationOptionValue z:Id="i52" i:type="StringConfigurationOptionValue">
-                        <Value>[BootVolume]</Value>
-                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i52" i:type="BooleanConfigurationOptionValue" />
                     <ConfigurationOptionValue z:Id="i53" i:type="StringConfigurationOptionValue">
-                        <Value />
+                        <Value>[BootVolume]</Value>
                     </ConfigurationOptionValue>
                     <ConfigurationOptionValue z:Id="i54" i:type="StringConfigurationOptionValue">
                         <Value />
@@ -278,10 +282,13 @@
                     <ConfigurationOptionValue z:Id="i55" i:type="StringConfigurationOptionValue">
                         <Value />
                     </ConfigurationOptionValue>
-                    <ConfigurationOptionValue z:Id="i56" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i56" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
                     <ConfigurationOptionValue z:Id="i57" i:type="BooleanConfigurationOptionValue" />
                     <ConfigurationOptionValue z:Id="i58" i:type="BooleanConfigurationOptionValue" />
                     <ConfigurationOptionValue z:Id="i59" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i60" i:type="BooleanConfigurationOptionValue" />
                 </Values>
             </Value>
         </ConfigurationOption>
