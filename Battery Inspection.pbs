@@ -204,13 +204,13 @@
             <AutoIncrementVersion>Build</AutoIncrementVersion>
             <BuildStatus z:Id="i31">
                 <BuildEverSuccessful>true</BuildEverSuccessful>
-                <FileName>acme-battery-inspection-test_1.0.0.17_windows_x64.nipkg</FileName>
-                <Version>1.0.0.17</Version>
+                <FileName>acme-battery-inspection-test_1.1.0.1_windows_x64.nipkg</FileName>
+                <Version>1.1.0.1</Version>
             </BuildStatus>
             <CompanyName>MyCompany</CompanyName>
             <CustomExecutes />
             <DisplayName>Battery Inspection Test</DisplayName>
-            <FileName>acme-battery-inspection-test_1.0.0.18_windows_x64.nipkg</FileName>
+            <FileName>acme-battery-inspection-test_1.1.0.2_windows_x64.nipkg</FileName>
             <MaintainerEmail>email@mycompany.com</MaintainerEmail>
             <MaintainerName>Acme</MaintainerName>
             <Messages xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
@@ -220,7 +220,7 @@
             <Section>Application Software</Section>
             <StoreProduct>true</StoreProduct>
             <Synopsis>Battery inspection test including ACIR.</Synopsis>
-            <Version>1.0.0.18</Version>
+            <Version>1.1.0.2</Version>
         </Distribution>
     </Distributions>
     <Feeds />
